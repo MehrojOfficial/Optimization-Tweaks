@@ -1,0 +1,183 @@
+# Audio
+audio.deep_buffer.media=false
+
+# Misc
+ro.display.type=oled
+persist.audio.button_jack.profile=volume
+persist.audio.button_jack.switch=0
+
+# VoLTE
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# SafetyNet
+ro.boot.verifiedbootstate=green
+
+# Smoothness Tweaks
+ro.hwui.disable_scissor_opt=false
+ro.zygote.disable_gl_preload=true
+
+#Some Default things
+init.svc.power-hal-1-0=running
+vendor.powerhal.boot_complete=1
+vendor.powerhal.init=1
+persist.log.tag.libPowerHal=S
+persist.log.tag.mtkpower@impl=S
+persist.log.tag.mtkpower_client=S
+khungtask.enable=true
+llk.enable=true
+persist.sys.fuse=true
+
+#Disable Android Logger
+logcat.live=disable
+debugtool.anrhistory=0 
+ro.config.htc.nocheckin=1 
+ro.config.nocheckin=1
+rofiler.debugmonitor=false 
+profiler.launch=false 
+profiler.hung.dumpdobugreport=false
+ro.kernel.checkjni=0
+ro.kernel.android.checkjni=0
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+
+ro.surface_flinger.set_idle_timer_ms=360
+ro.surface_flinger.set_touch_timer_ms=280
+ro.surface_flinger.vsync_event_phase_offset_ns=false
+ro.surface_flinger.vsync_sf_event_phase_offset_ns=false
+debug.sf.late.sf.duration=27600000
+debug.sf.late.app.duration=20000000
+debug.sf.early.sf.duration=27600000
+debug.sf.early.app.duration=20000000
+debug.sf.earlyGl.sf.duration=27600000
+debug.sf.earlyGl.app.duration=20000000
+debug.sf.hwc.min.duration=17000000
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.vendor.mtk_hdr_video_support=1
+
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.avi.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.dec.vid.mp4.enabled=1
+ro.media.dec.vid.H.264.enabled=1
+ro.media.enc.aud.flac.enabled=1
+ro.media.enc.vid.H.264.enabled=1
+ro.media.enc.aud.wma.enabled=1
+ro.media.enc.vid.wmv.enabled=1
+ro.media.enc.aud.mp3.enabled=1
+ro.media.enc.vid.mp4.enabled=1
+
+# Faster streaming videos
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=false
+
+#N4
+persist.sys.NV_STEREOSEP=20
+ro.vendor.smart_dfps=disable
+persist.sys.NV_PROFVER=15
+ro.vendor.dfps=disable
+stable.fps.enable=True
+persist.sys.NV_FPSLIMIT=144
+dont.lower.fps=True
+persist.sys.NV_STEREOSEPCHG=0
+stabilizer.fps=True
+persist.sys.NV_STEREOCTRL=0
+ro.vendor.dfps.enable=false
+ro.vendor.smart_dfps.enable=false
+persist.sys.NV_POWERMODE=1
+persist.sys.purgeable_assets=1
+persist.sys.use_16bpp_alpha=1
+
+#Better net
+net.dns1=1.1.1.1
+net.dns2=1.0.0.1
+ro.config.nocheckin=1
+wifi.supplicant_scan_interval=360
+ro.ril.disable.power.collapse=0
+net.rmnet0.dns1=1.1.1.1
+net.rmnet0.dns2=1.0.0.1
+net.ppp0.dns1=1.1.1.1
+net.ppp0.dns2=1.0.0.1
+net.wlan0.dns1=1.1.1.1
+net.wlan0.dns2=1.0.0.1
+net.eth0.dns1=1.1.1.1
+net.eth0.dns2=1.0.0.1
+net.gprs.dns1=1.1.1.1
+net.gprs.dns2=1.0.0.1
+ro.com.google.ime.kb_pad_port_b=1
+ro.product.one_device=qssi_alfa
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.radio.VT_ENABLE=1
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.data_con_rprt=1
+persist.radio.calls.on.ims=1
+persist.radio.volte.dan_support=true
+persist.data.iwlan=1
+persist.data.iwlan.ipsec.ap=1
+persist.sys.cust.lte_config=true
+persist.rcs.supported=1
+
+# Net speed enhancer[tcp buffersize]
+net.tcp.buffersize.default=6144,87380,110208,6144,16384,110208
+net.tcp.buffersize.edge=6144,26280,35040,6144,16384,35040
+net.tcp.buffersize.evdo_b=6144,262144,1048576,6144,262144,1048576
+net.tcp.buffersize.gprs=6144,8760,11680,6144,8760,11680
+net.tcp.buffersize.hsdpa=6144,262144,1048576,6144,262144,1048576
+net.tcp.buffersize.hspa=6144,87380,262144,6144,16384,262144
+net.tcp.buffersize.lte=262144,524288,3145728,262144,524288,3145728
+net.tcp.buffersize.umts=6144,87380,110208,6144,16384,110208
+net.tcp.buffersize.wifi=262144,524288,1048576,262144,524288,1048576
+
+# Better Scrolling
+ro.min_pointer_dur=8
+ro.max.fling_velocity=12000
+windowsmgr.max_events_per_sec=120
+
+# Improved performance
+debug.performance.tuning=1
+
+#----------------------------------
+# Disables built in error reporting
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+
+#----------------------------------
+# Disables kernel error checking
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+persist.android.strictmode=0
+
+#----------------------------------
+# Disable Logcat
+logcat.live=disable
+#----------------------------------
+
+# Disables sending of usage data
+ro.config.nocheckin=1
+#----------------------------------
+
+# Disables locating
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
+#----------------------------------
+
+# Wifi scaning rate [every 60 --> 1 scan / min]
+wifi.supplicant_scan_interval=600 #10minutes
+#----------------------------------
+
+Dalvik.vm.heapgrowthlimit=96m
+Dalvik.vm.heapmaxfree=8m
+Dalvik.vm.minfree=2m
+Dalvik.vm.heapsize=200m
+Dalvik.vm.heapstaetsize=16m
+Dalvik.vm.heaptargetutilization=0.75
