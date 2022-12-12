@@ -1,6 +1,9 @@
 # Optimization Tweaks
 Optimization and Smoothness Tweaks for Android 12/13 ROMs
 
+### How to install ?
+- Flash in Magisk and Reboot
+
 Features:
 - VoLTE Tweaks (enables VoLTE support if needed) [BETA]
 - Safetynet (out-of-box safety net tweak) [BETA]
