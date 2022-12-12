@@ -27,3 +27,12 @@ Optimization and Smoothness Tweaks for Android 12/13 ROMs
 [Download Link](https://www.pling.com/p/1953905/)
 
 Credit: [@byMehroj](https://t.me/byMehroj)
+___
+(Advice) If you want extra smooth scrolling experience use following module:
+
+[Download Link](https://www.pling.com/p/1893242/)
+
+- Flash in Magisk and Reboot
+
+Credit: [@kntdreborn](https://t.me/kntdreborn) [not owned or belonged to me]
+
