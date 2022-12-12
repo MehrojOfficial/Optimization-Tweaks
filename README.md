@@ -30,9 +30,9 @@ Credit: [@byMehroj](https://t.me/byMehroj)
 ___
 (Advice) If you want extra smooth scrolling experience use following module:
 
-[Download Link](https://www.pling.com/p/1893242/)
+[Download Link](https://www.pling.com/p/1893242/) [this one is not owned or belonged to me]
 
 - Flash in Magisk and Reboot
 
-Credit: [@kntdreborn](https://t.me/kntdreborn) [not owned or belonged to me]
+Credit: [@kntdreborn](https://t.me/kntdreborn)
 
